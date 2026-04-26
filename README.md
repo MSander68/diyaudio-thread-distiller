@@ -8,7 +8,10 @@ The goal is to help users find the posts that are most likely worth reading firs
 
 ## Status
 
-Early MVP / beta.
+Early MVP / beta. Linux and Windows avaiable 
+
+certutil -hashfile DIYAudioThreadDistiller.exe SHA1 hash of DIYAudioThreadDistiller.exe:
+d30d8007c1da9bc480a51bbce794f97fd9660677
 
 The tool currently works for selected DIYAudio threads and is intended for testing and feedback.
 
