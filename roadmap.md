@@ -8,19 +8,20 @@
 - GitHub release workflow
 - README / changelog / known limitations
 - cleaner tester feedback loop
+- Add an optional ai_context.md export idea from Mr. Pano
 
 ## v0.4-beta
-- Loudspeaker scoring profile
+- Loudspeaker scoring profile + Tube + Whatever comes up
 - GUI dropdown for profile selection
 
 ## v0.5-beta
 - Better report filters
-- Optional CSV export
-- Better contributor overview
+- Optional CSV export (maybe)
+- Better contributor overview 
 
 ## v1.0
 - Stable fetch/parse/report
 - At least two useful scoring profiles
 - Clean public documentation
 - Known limitations documented
-- AI should come later only as optional assistant layer
+- AI should come later only as optional assistant layer but we start with the ai_context.md export v0.3 might be engnof 
