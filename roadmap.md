@@ -23,4 +23,4 @@
 - At least two useful scoring profiles
 - Clean public documentation
 - Known limitations documented
-- AI should come later only as: optional assistant layer
+- AI should come later only as optional assistant layer
