@@ -9,6 +9,8 @@
 - README / changelog / known limitations
 - cleaner tester feedback loop
 - Add an optional ai_context.md export idea from Mr. Pano
+- Add HTML Tech Report, template by Mr. Pano
+- Add Guardrails politeness / safety model before users go bananas with the super large threads
 
 ## v0.4-beta
 - Loudspeaker scoring profile + Tube + Whatever comes up
