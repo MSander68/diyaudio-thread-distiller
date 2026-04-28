@@ -4,6 +4,7 @@ A small Python GUI tool for extracting, scoring, and reporting technically usefu
 The goal is not to replace reading the original thread.
 
 The goal is to help users find the posts that are most likely worth reading first.
+<img width="905" height="636" alt="image" src="https://github.com/user-attachments/assets/ce199d12-561c-47bf-b420-97a28aab6d94" />
 
 ## Source code status
 The current beta is distributed as executable builds only.
@@ -63,5 +64,3 @@ Given one DIYAudio thread URL, the tool can:
 3. Clean and normalize post text.
 4. Apply deterministic rule-based technical scoring.
 5. Generate a human-readable technical report.
-
-  report_manifest.json
