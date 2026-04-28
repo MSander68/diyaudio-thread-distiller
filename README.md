@@ -1,10 +1,14 @@
 # DIYAudio Thread Distiller
 
 A small Python GUI tool for extracting, scoring, and reporting technically useful posts from large DIYAudio forum threads.
-
 The goal is not to replace reading the original thread.
 
 The goal is to help users find the posts that are most likely worth reading first.
+
+## Source code status
+The current beta is distributed as executable builds only.
+Source code is not published at this stage while licensing, forum policy, responsible-use safeguards.
+The goal is to ensure the tool is used responsibly, avoids unnecessary forum load, and remains aligned with the DIYAudio community.
 
 ## Status
 
@@ -19,6 +23,23 @@ Includes:
 
 Current scoring profile is electronics/amplifier-oriented
 
+## DIYAudio community
+For now I am keeping the beta executable-only while the responsible-use model, licensing, and possible forum-side contribution.
+This is partly because large threads can involve many page requests, so I want to avoid encouraging uncontrolled scraping or forks with unsafe fetch behavior.
+The tool is intended to help the DIYAudio community, so I want the next step to be aligned with the forum owner/moderators before deciding how the source and future versions should be handled.
+
+## Responsible fetching
+The tool is designed to fetch one thread at a time with a polite delay between page requests.
+Large threads may take a long time to download. This is intentional.
+
+Planned safeguards include:
+- configurable but bounded request delay
+- large-thread warning
+- cache/resume behavior
+- no parallel fetching
+- abort on repeated HTTP errors
+- honest User-Agent identification
+
 # Changelog
 
 ## v0.2-beta
@@ -32,18 +53,9 @@ Current scoring profile is electronics/amplifier-oriented
 - Added Windows and Linux executable builds
 
 ## v0.1-mvp
-
 - Initial fetch / parse / clean / score / report pipeline
 
-## Windows 
-
-certutil -hashfile DIYAudioThreadDistiller.exe SHA1 hash of DIYAudioThreadDistiller.exe:
-d30d8007c1da9bc480a51bbce794f97fd9660677
-
-The tool currently works for selected DIYAudio threads and is intended for testing and feedback.
-
 ## What it does
-
 Given one DIYAudio thread URL, the tool can:
 
 1. Fetch all thread pages politely and save the raw HTML locally.
@@ -52,19 +64,4 @@ Given one DIYAudio thread URL, the tool can:
 4. Apply deterministic rule-based technical scoring.
 5. Generate a human-readable technical report.
 
-## Current output
-
-For each processed thread, the tool creates files such as:
-
-```text
-data/threads/<thread-name>/
-  raw/
-    page_001.html
-    page_002.html
-    ...
-  fetch_manifest.json
-  posts_raw.json
-  posts_clean.json
-  posts_scored.json
-  technical_report.md
   report_manifest.json
