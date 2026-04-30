@@ -42,6 +42,13 @@ Planned safeguards include:
 - honest User-Agent identification
 
 # Changelog
+## v0.3-beta
+- GitHub release workflow
+- README / changelog / known limitations
+- cleaner tester feedback loop
+- Add an optional ai_context.md export idea from Mr. Pano
+- Add HTML Tech Report, template by Mr. Pano
+- Add Guardrails politeness / safety model before users go bananas with the super large threads
 
 ## v0.2-beta
 
