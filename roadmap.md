@@ -2,9 +2,9 @@
 - Initial fetch / parse / clean / score / report pipeline
 
 ## v0.2-beta
-- Current tool + scoring cleanup + HTML report
+- scoring cleanup + HTML report
 
-## v0.3-beta
+## v0.3-beta - Current tool
 - GitHub release workflow
 - README / changelog / known limitations
 - cleaner tester feedback loop
