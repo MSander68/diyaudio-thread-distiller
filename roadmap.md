@@ -4,7 +4,7 @@
 ## v0.2-beta
 - scoring cleanup + HTML report
 
-## v0.3-beta - Current tool
+## v0.3-beta 
 - GitHub release workflow
 - README / changelog / known limitations
 - cleaner tester feedback loop
@@ -12,7 +12,7 @@
 - Add HTML Tech Report, template by Mr. Pano
 - Add Guardrails politeness / safety model before users go bananas with the super large threads
 
-## v0.4-beta
+## v0.4-beta - Current tool
 - Loudspeaker scoring profile + Tube + Whatever comes up
 - GUI dropdown for profile selection
 
