@@ -42,6 +42,18 @@ Planned safeguards include:
 - honest User-Agent identification
 
 # Changelog
+## v0.4-beta
+- Loudspeaker scoring profile + Tube
+- GUI dropdown for profile selection
+- Improved HTML report output
+- Less repeated content in report sections
+- Top Technical Posts now avoids pulling in low-score/noise posts just because the thread is short
+- Added scoring profile selection
+- Added two new experimental profiles:
+- Electronics / amplifier-basic
+- Tubes / valves
+- Loudspeaker / multi-way
+
 ## v0.3-beta
 - GitHub release workflow
 - README / changelog / known limitations
